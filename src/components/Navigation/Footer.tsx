@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export const Footer = () => {
   return (
-    <footer aria-labelledby="footer-heading" className="bg-white">
+    <footer aria-labelledby="footer-heading" className="bg-[#9bca48]">
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
@@ -10,52 +10,39 @@ export const Footer = () => {
         <div className="py-10">
           <div className="grid grid-cols-1 md:grid-flow-col md:auto-rows-min md:grid-cols-12 md:gap-x-8 md:gap-y-16">
             {/* Sitemap sections */}
-            <div className="col-span-6 mt-10 grid grid-cols-2 gap-8 sm:grid-cols-3 md:col-span-8 md:col-start-3 md:row-start-1 md:mt-0 lg:col-span-6">
+            <div className="col-span-6 mt-10 gap-8 sm:grid-cols-3 md:col-span-8 md:col-start-3 md:row-start-1 md:mt-0 lg:col-span-6">
               <div>
-                <h3 className="text-md font-medium text-gray-900">Contact Details</h3>
+                <h3 className="text-md font-medium text-black">Contact Details</h3>
                 <ul role="list" className="mt-2 space-y-2">
                   <li>
-                    <Link className="text-sm text-gray-900" href="mailto:info@ninezero.co.za">info@ninezeroholdings.co.za</Link>
+                    <Link className="text-sm text-black" href="mailto:info@ninezero.co.za">info@ninezeroholdings.co.za</Link>
                   </li>
                   <li>
-                    <Link className="text-sm text-gray-900" href="tel:+27792681578">+27 79 268 1578</Link>
+                    <Link className="text-sm text-black" href="tel:+27792681578">+27 79 268 1578</Link>
                   </li>
                 </ul>
               </div>
-              <div>
-                <h3 className="text-md font-medium text-gray-900">Company</h3>
-                {/* <ul role="list" className="mt-6 space-y-6">
-                  {footerNavigation.company.map((item) => (
-                    <Link href={item.href} key={item.name} className="text-sm">
-                      <p className="text-gray-500 hover:text-gray-600">
-                        {item.name}
-                      </p>
-                    </Link>
-                  ))}
-                </ul> */}
-              </div>
-              <div>
-                <h3 className="text-md font-medium text-gray-900">
-                  Customer Service
+              <div className="mt-4">
+                <h3 className="text-md font-medium text-black">
+                  Head Office Address
                 </h3>
-                {/* <ul role="list" className="mt-6 space-y-6">
-                  {footerNavigation.customerService.map((item) => (
-                    <Link href={item.href} key={item.name} className="text-sm">
-                      <p className="text-gray-500 hover:text-gray-600">
-                        {item.name}
-                      </p>
-                    </Link>
-                  ))}
-                </ul> */}
+                
+                <ul className="mt-2">
+                    <li>
+                        <p className="text-sm text-black">
+                            834 Justice Mahomed St, Brooklyn, Pretoria 0081
+                        </p>
+                    </li>
+                </ul>
               </div>
             </div>
 
             {/* Newsletter section */}
             <div className="mt-12 md:col-span-8 md:col-start-3 md:row-start-2 md:mt-0 lg:col-span-4 lg:col-start-9 lg:row-start-1">
-              <h3 className="text-sm font-medium text-gray-900">
+              <h3 className="text-sm font-medium text-black">
                 Sign up for our newsletter
               </h3>
-              <p className="mt-6 text-sm text-gray-500">
+              <p className="mt-6 text-sm text-black">
                 The latest deals and savings, sent to your inbox weekly.
               </p>
               <form className="mt-2 flex sm:max-w-md">
@@ -83,7 +70,7 @@ export const Footer = () => {
         </div>
 
         <div className="border-t border-gray-100 py-8 text-center">
-          <p className="text-sm text-gray-500">
+          <p className="text-sm text-black">
             &copy; 2023 Ninezero Holdings (Pty) Ltd. All rights reserved.
           </p>
         </div>
