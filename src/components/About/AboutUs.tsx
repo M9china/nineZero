@@ -1,6 +1,6 @@
 export const AboutUs = () => {
   return (
-    <main className="pt-[5rem] pb-[2rem] px-4 bg-white min-h-screen" aria-labelledby="about-us page">
+    <main className="pt-[5rem] px-4 bg-white min-h-screen" aria-labelledby="about-us page">
       <section>
         <p className="text-black">
           NineZero Holdings (PTY) LTD is not a manufacture but a distributor. It
