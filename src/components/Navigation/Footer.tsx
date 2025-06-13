@@ -7,12 +7,12 @@ export const Footer = () => {
         Footer
       </h2>
       <div className="mx-auto max-w-8xl px-4 lg:px-8">
-        <div className="py-10">
+        <div className="py-6">
           <div className="grid grid-cols-1 md:grid-flow-col md:auto-rows-min md:grid-cols-12 md:gap-x-8 md:gap-y-16">
             {/* Sitemap sections */}
-            <div className="col-span-6 mt-10 gap-8 sm:grid-cols-3 md:col-span-8 md:col-start-3 md:row-start-1 md:mt-0 lg:col-span-6">
+            <div className="col-span-6 mt-2 gap-8 sm:grid-cols-3 md:col-span-8 md:col-start-3 md:row-start-1 md:mt-0 lg:col-span-6">
               <div>
-                <h3 className="text-md font-medium text-black">Contact Details</h3>
+                <h3 className="text-md font-semibold text-black">Contact Details</h3>
                 <ul role="list" className="mt-2 space-y-2">
                   <li>
                     <Link className="text-sm text-black" href="mailto:info@ninezero.co.za">info@ninezeroholdings.co.za</Link>
@@ -23,7 +23,7 @@ export const Footer = () => {
                 </ul>
               </div>
               <div className="mt-4">
-                <h3 className="text-md font-medium text-black">
+                <h3 className="text-md font-semibold text-black">
                   Head Office Address
                 </h3>
                 
