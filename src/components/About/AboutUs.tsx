@@ -1,6 +1,6 @@
 export const AboutUs = () => {
   return (
-    <main className="" aria-labelledby="about-us page">
+    <main className="pt-[5rem] bg-white min-h-screen" aria-labelledby="about-us page">
       <section>
         <p>
           NineZero HOldings (PTY) LTD is not a manufacture but a distributor. It

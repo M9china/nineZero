@@ -14,13 +14,14 @@ export const TopNav = () => {
       <Dialog open={open} onClose={setOpen} className="relative z-40 lg:hidden">
         <DialogBackdrop
           transition
-          className="fixed inset-0 bg-black bg-opacity-25 transition-opacity duration-300 ease-linear data-[closed]:opacity-0"
+          className="fixed inset-0 transition-opacity duration-300
+           ease-linear data-[closed]:opacity-0 data-[open]:opacity-30 bg-white"
         />
-
         <div className="fixed inset-0 z-40 flex">
           <DialogPanel
             transition
-            className="relative flex w-1/2 max-w-xs transform flex-col overflow-y-auto bg-white pb-12 shadow-xl transition duration-300 ease-in-out data-[closed]:-translate-x-full"
+            className="relative flex w-1/2 max-w-xs transform flex-col overflow-y-auto bg-white pb-12 
+            shadow-xl transition duration-300 ease-in-out data-[closed]:-translate-x-full"
           >
             <div className="flex px-4 pb-2 pt-5">
               <button

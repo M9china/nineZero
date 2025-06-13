@@ -1,7 +1,7 @@
 export const OurProducts = () => {
   return (
-    <main className="" aria-labelledby="products-page">
-      <h1 className="">Welcome to our products page</h1>
+    <main className="pt-[5rem] bg-white min-h-screen" aria-labelledby="products-page">
+      <h1 className="text-[#9bca48] font-semibold px-4 text-4xl">Welcome to our products page</h1>
     </main>
   );
 };
