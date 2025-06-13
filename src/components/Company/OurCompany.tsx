@@ -9,9 +9,9 @@ export const OurCompany = () => {
           and neighbouring contries with clean oil.
         </p>
         <p className="text-black">
-          The company's long term strategy is becoming the leading independent
+    {      `The company's long term strategy is becoming the leading independent
           fuel in South Africa while ensuring that our clients benefit from
-          competitive pricing extended by major oil refineres.
+          competitive pricing extended by major oil refineres.`}
         </p>
         <p className="text-black">
           Your priorities are our priorities. We directly focus on our customer
