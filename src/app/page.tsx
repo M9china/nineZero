@@ -13,7 +13,7 @@ export default function Home() {
         />
         <div className="absolute inset-0 flex items-center justify-center">
           <h1 className="text-white text-3xl font-bold text-center">
-            NineZero Holdings
+            NineZero Holdings Pty Ldt
           </h1>
           <h1>
 
