@@ -68,7 +68,7 @@ export const Footer = () => {
 
         <div className="border-t border-gray-100 py-8 text-center">
           <p className="text-sm text-black">
-            &copy; 2023 Ninezero Holdings (Pty) Ltd. All rights reserved.
+            &copy; 2023 NineZero Holdings (Pty) Ltd. All rights reserved.
           </p>
         </div>
       </div>
