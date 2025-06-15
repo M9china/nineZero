@@ -13,7 +13,7 @@ export default function Home() {
         />
         <div className="absolute inset-0 px-2 flex items-center justify-center">
           <h1 className="text-white text-4xl font-bold text-center">
-            NineZero Holdings Pty Ltd
+            Welcome to NineZero Holdings Pty Ltd
           </h1>
         </div>
       </div>
@@ -23,8 +23,8 @@ export default function Home() {
         </h1>
         <div className="mt-8">
           <Image
-            src="/products.jpg"
-            alt="Image/icon of our products"
+            src="/"
+            alt="Image/Icon of our products"
             width={800}
             height={600}
             className="w-full h-auto object-cover border border-gray-300 rounded-lg mt-4"
