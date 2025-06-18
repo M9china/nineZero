@@ -1,3 +1,4 @@
+import { Mission, OurProducts } from "@/components";
 import Image from "next/image";
 
 export default function Home() {
@@ -17,23 +18,22 @@ export default function Home() {
           </h1>
         </div>
       </div>
-      <section className="mt-[5rem] px-4">
-        <h1 className="text-[#009ec5] text-3xl font-bold">
+      <section className="mt-[8rem]">
+        <h1 className="text-[#009ec5] text-3xl px-4 font-bold">
           Our Products
         </h1>
-        <div className="mt-8">
-          <Image
-            src="/"
-            alt="Image/Icon of our products"
-            width={800}
-            height={600}
-            className="w-full h-auto object-cover border border-gray-300 rounded-lg mt-4"
-          />
-          <p className="text-black mt-2 font-semibold">
-            Heavy Fuel( Grade 3 Products)
+        <div>
+          <p className="text-gray-700 px-4 mt-2">
+                 Discover our premium range of petroleum and gas products designed to power industries, 
+                 fuel transportation, and support households across Southern Africa.
           </p>
         </div>
-
+        <div className="mt-8">
+          <OurProducts />
+        </div>
+      </section>
+      <section className="">
+        <Mission/>
       </section>
     </main>
   );
