@@ -55,8 +55,8 @@ export const Footer = () => {
                 Contact Us
               </h3>
               <p className="text-sm text-black mb-6">
-                We'd love to hear from you. Send us a message and our team will
-                get back to you shortly.
+                {`We'd love to hear from you. Send us a message and our team will
+                get back to you shortly.`}
               </p>
 
               <form className="space-y-4">
