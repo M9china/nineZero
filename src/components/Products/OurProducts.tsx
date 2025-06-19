@@ -24,7 +24,7 @@ export const OurProducts = () => {
       <div className="mx-auto max-w-7xl pb-10 sm:mt-[12rem] sm:px-6 sm:py-32 lg:px-8">
         <div className="slider-container mt-10">
           <Slider {...settings}>
-            {slides.map((value: any) => (
+            {slides.map((value) => (
               <Link
                 href={"/#"}
                 key={value.alt}
