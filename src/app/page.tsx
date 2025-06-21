@@ -15,7 +15,7 @@ export default function Home() {
           height={1080}
           className="w-full pt-[4rem] h-auto object-cover scale-150"
         />
-        <div className="absolute inset-0 px-2 flex items-center justify-center">
+        <div className="absolute inset-0 px-2 mt-12 flex items-center justify-center">
           <h1 className="text-white text-4xl font-bold text-center">
             Welcome to NineZero Holdings
           </h1>
