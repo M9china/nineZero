@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main
-      className="pt-[4rem] pb-[2.8rem] overflow-hidden min-h-screen bg-white"
+      className="pt-[1.8rem] pb-[2.8rem] overflow-hidden min-h-screen bg-white"
       aria-labelledby="home-page"
     >
       <div className="relative">
@@ -33,6 +33,10 @@ export default function Home() {
             , <strong>simplicity</strong>, <strong>accessibility</strong>, and{" "}
             <strong>personal</strong> or
             <strong> technical services</strong> to our clients.
+          </p>
+          <p className="text-gray-700 px-4 mt-2">
+            Ourpriority is to build long-lasting, reliable services. We empower clients with our expertise
+            , superseding all their expectatins.
           </p>
         </div>
       </section>
