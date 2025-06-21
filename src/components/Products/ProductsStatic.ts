@@ -1,7 +1,7 @@
 
 export const slides = [
   {
-    src: "/product1.jpeg",
+    src: "/lpg.jpeg",
     alt: "Product 1",
     description: "Liquified Petroleum Gas (LPG)",
   },
@@ -11,12 +11,12 @@ export const slides = [
     description: "Automotive Fuels",
   },
   {
-    src: "/product3.jpeg",
+    src: "/heavyFuel.jpg",
     alt: "Product 3",
     description: "Heavy Fuel (Grade 3 products",
   },
   {
-    src: "/product4.jpeg",
+    src: "/oil.jpg",
     alt: "Product 4",
     description: "Light Fuel Oil",
   },
