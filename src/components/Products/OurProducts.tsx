@@ -25,7 +25,7 @@ export const OurProducts = () => {
               key={value.alt}
               className="flex flex-col justify-center pb-2"
             >
-              <div className="px-4 group relative">
+              <div className="px-4 mb-4 group relative">
                 <Image
                   width={500}
                   height={500}
