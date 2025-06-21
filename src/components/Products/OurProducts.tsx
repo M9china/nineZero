@@ -25,7 +25,6 @@ export const OurProducts = () => {
               key={value.alt}
               className="flex flex-col justify-center pb-2"
             >
-              <h1 className="text-black text-xl font-semibold px-4 py-4">{value.description}</h1>
               <div className="px-4 group relative">
                 <Image
                   width={500}
@@ -34,7 +33,13 @@ export const OurProducts = () => {
                   src={value.src}
                   alt="avatar"
                 />
+                  <div className="absolute inset-0 mx-4 mt-[12rem] justify-center">
+                <p className="text-white text-xl font-semibold px-4 mt-2">
+                  {value.description}
+                </p>
               </div>
+              </div>
+            
             </Link>
           ))}
         </div>
