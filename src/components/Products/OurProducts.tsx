@@ -1,6 +1,4 @@
 "use client";
-
-import Link from "next/link";
 import Image from "next/image";
 import { slides } from "./ProductsStatic";
 
@@ -14,33 +12,31 @@ export const OurProducts = () => {
         <h1 className="text-[#009ec5] text-3xl px-4 font-bold">Our Products</h1>
         <div>
           <p className="text-gray-700 px-4 mt-2">
-            Our products inlcude but not limited to, liquified petroleum gas (LPG), Automative fuel,
-            Heavy Fuel(grade 3 products), Light fuel oil, Lubricants and Transformer oil.
+            Our products inlcude but not limited to, liquified petroleum gas
+            (LPG), Automative fuel, Heavy Fuel(grade 3 products), Light fuel
+            oil, Lubricants and Transformer oil.
           </p>
         </div>
-        <div className="slider-container mt-6">
+        <div className=" mt-6">
           {slides.map((value) => (
-            <Link
-              href={"/#"}
+            <div
               key={value.alt}
-              className="flex flex-col justify-center pb-2"
+              className="mb-8 pb-2"
             >
-              <div className="px-4 mb-4 group relative">
+              <div className="rounded-md shadow-gray-400 shadow-2xl mx-4">
                 <Image
                   width={500}
                   height={500}
-                  className="object-cover rounded-md object-center group-hover:opacity-75 h-[17rem]"
+                  className="object-cover w-full rounded-t-md object-center group-hover:opacity-75 h-[12rem]"
                   src={value.src}
                   alt="avatar"
                 />
-                  <div className="absolute inset-0 mx-4 mt-[12rem] justify-center">
-                <p className="text-white text-xl font-semibold px-4 mt-2">
+
+                <p className="text-black text-xl px-4 py-6 font-semibold mt-2">
                   {value.description}
                 </p>
               </div>
-              </div>
-            
-            </Link>
+            </div>
           ))}
         </div>
       </div>

@@ -40,7 +40,7 @@ export const Mission = () => {
             </span>
             <p className="ml-2">Partnership</p>
           </div>
-          <div className="text-white text-md flex items-center mt-5">
+          <div className="text-white text-md flex items-center mt-4">
             <span className="flex items-center border border-white rounded-full px-1 py-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +59,7 @@ export const Mission = () => {
             </span>
             <p className="ml-2">Respect</p>
           </div>
-          <div className="text-white text-md flex items-center mt-5">
+          <div className="text-white text-md flex items-center mt-4">
             <span className="flex items-center border border-white rounded-full px-1 py-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -78,7 +78,7 @@ export const Mission = () => {
             </span>
             <p className="ml-2">Costomer Service Response</p>
           </div>
-          <div className="text-white text-md flex items-center mt-5">
+          <div className="text-white text-md flex items-center mt-4">
             <span className="flex items-center border border-white rounded-full px-1 py-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -97,7 +97,7 @@ export const Mission = () => {
             </span>
             <p className="ml-2">Partnership</p>
           </div>
-          <div className="text-white text-md flex items-center mt-5">
+          <div className="text-white text-md flex items-center mt-4">
             <span className="flex items-center border border-white rounded-full px-1 py-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -116,7 +116,7 @@ export const Mission = () => {
             </span>
             <p className="ml-2">Ethical Practices</p>
           </div>
-          <div className="text-white text-md flex items-center mt-5">
+          <div className="text-white text-md flex items-center mt-4">
             <span className="flex items-center border border-white rounded-full px-1 py-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

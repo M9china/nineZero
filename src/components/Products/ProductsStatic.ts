@@ -6,17 +6,17 @@ export const slides = [
     description: "Liquified Petroleum Gas (LPG)",
   },
   {
-    src: "/product2.jpeg",
+    src: "/fuel.jpg",
     alt: "Product 2",
     description: "Automotive Fuels",
   },
   {
-    src: "/heavyFuel.jpg",
+    src: "/heavyfuek.jpeg",
     alt: "Product 3",
-    description: "Heavy Fuel (Grade 3 products",
+    description: "Heavy Fuel (Grade 3 products)",
   },
   {
-    src: "/oil.jpg",
+    src: "/oil.jpeg",
     alt: "Product 4",
     description: "Light Fuel Oil",
   },
