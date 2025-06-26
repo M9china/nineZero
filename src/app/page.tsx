@@ -38,6 +38,11 @@ export default function Home() {
             Ourpriority is to build long-lasting, reliable services. We empower clients with our expertise
             , superseding all their expectatins.
           </p>
+          <p className="text-gray-700 px-4 mt-2">
+          NineZero Holdings (PTY) LTD is not a manufacture but a distributor. It
+          has strategically formed alliences with some recognised SA Fuel oil
+          major manufactures fot the distribution of petroleum products
+        </p>
         </div>
       </section>
       <section className="mt-8">
