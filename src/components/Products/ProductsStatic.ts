@@ -7,7 +7,7 @@ export const slides = [
   },
     {
     src: "/heavyfuek.jpeg",
-    alt: "Product 4",
+    alt: "Product 5",
     description: "Medium Fuel Oil (Grade 2)",
   },
   {
